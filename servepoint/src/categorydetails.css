@@ -1,0 +1,101 @@
+.category-details {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.back-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.back-btn:hover {
+    background-color: #eef3f3;
+}
+
+.back-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.category-details h2 {
+    color: #0f3c3d;
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* حاوية قائمة الأكلات الفرعية */
+.sub-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 800px;
+    /* عشان ما تجيش عريضة بزاف في الشاشات الكبيرة */
+}
+
+/* كرت الأكلة الفرعية (Sub Card) */
+.sub-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f3f5;
+    /* نفس الـ background الأساسي للكروت عندك */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sub-card:hover {
+    transform: translateX(8px);
+    /* أنيميشن خفيف لليمين بدل فوق بما أنها قائمة طولية */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sub-card-info h4 {
+    color: #0f3c3d;
+    margin: 0 0 6px 0;
+    font-size: 18px;
+}
+
+.sub-card-info p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* ستايل السعر */
+.sub-card .price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    background-color: azure;
+    /* متناسق مع لون الـ input عندك */
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* حالة عدم وجود بيانات */
+.no-data {
+    color: #888;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}

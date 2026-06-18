@@ -1,0 +1,281 @@
+.profil {
+    padding: 24px;
+}
+
+.profil-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profil-header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.personal_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+}
+
+.hrligne {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    margin-bottom:24px;
+}
+
+.hrhorizontal {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 1px;
+    height: 100%;
+}
+
+.personal_info_left {
+    background-color: #f1f3f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 32px;
+    margin-left: 40px;
+    margin-top:40px;
+    width: 20%;
+
+}
+
+.personal_info_left_part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.personal_info_left_part1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 999px;
+}
+
+.personal_info_left_part1_title {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.personal_info_left_part1_title h3 {
+    margin-bottom: 1px;
+}
+
+.personal_info_left_part2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:24px;
+
+}
+
+.personal_info_left_part2 hr {
+    background-color: black;
+    height: 100px;
+    margin: 0;
+}
+
+.personal_info_left_part3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.personal_info_left_part21 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.personal_info_left_part21 div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.personal_info_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.personal_info_right_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.personal_info_right_form label {
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-style: oblique;
+}
+
+.personal_info_right_form_radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.personal_info_right_form_name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.personal_info_right_form_Fname {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px
+}
+
+.personal_info_right_form_Fname input {
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f1f3f5;
+
+}
+
+.personal_info_right_form_Lname {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px
+}
+
+.personal_info_right_form_Lname input {
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f1f3f5;
+}
+
+.personal_info_right_form_email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px
+}
+
+.personal_info_right_form_email input {
+    width: 670px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f1f3f5
+}
+
+.personal_info_right_form_mobile_birth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.personal_info_right_form_mobile_birth input {
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f1f3f5
+}
+
+.personal_info_right_form_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px
+}
+
+.personal_info_right_form_birth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px
+}
+
+.personal_info_right_form_part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.personal_info_right_form_part input {
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f1f3f5
+}
+
+.personal_info_right_form_contry {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px
+}
+
+.personal_info_right_form_contry select {
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f1f3f5
+}
+
+.personal_info_right_form_postal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px
+}
+
+.Disabled_button {
+    width: 670px;
+    height: 48px;
+    background-color: darksalmon;
+    border: none;
+    border-radius: 32px;
+    margin-top: 40px;
+    cursor:not-allowed;
+}
+.Enabled_button {
+    width: 670px;
+    height: 48px;
+    background-color: darksalmon;
+    border: none;
+    border-radius: 32px;
+    margin-top: 40px;
+    cursor:pointer;
+}
